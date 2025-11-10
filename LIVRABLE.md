@@ -79,7 +79,7 @@ Chaque groupe peut choisir un certain nombre **d'exigences complémentaires** en
 
 Elles doivent être reportées ci-dessous.
 
-### Exigence 1
+### Exigence 1: multilingue
 
 ### Exigence 2
 
