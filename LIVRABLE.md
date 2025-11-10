@@ -86,6 +86,8 @@ Traduction du site en différentes langues (en en prio)
 test
 aze
 
+tt
+
 ## Rendu attendu
 
 * Un **site web statique** dont le code source et les ressources se trouvent dans le dossier [`public`](public)
