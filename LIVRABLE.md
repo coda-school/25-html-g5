@@ -85,7 +85,6 @@ Traduction du site en différentes langues (en en prio)
 ### Exigence 2
 test
 
-
 ## Rendu attendu
 
 * Un **site web statique** dont le code source et les ressources se trouvent dans le dossier [`public`](public)
