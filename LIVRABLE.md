@@ -80,10 +80,9 @@ Chaque groupe peut choisir un certain nombre **d'exigences complémentaires** en
 Elles doivent être reportées ci-dessous.
 
 ### Exigence 1
-Traduction du site en différentes langues (en en prio)
+Traduction du site en différentes langues (en prio)
 
 ### Exigence 2
-test
 
 ## Rendu attendu
 
