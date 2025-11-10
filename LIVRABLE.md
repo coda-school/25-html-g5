@@ -84,6 +84,7 @@ Traduction du site en différentes langues (en en prio)
 
 ### Exigence 2
 test
+aze
 
 ## Rendu attendu
 
