@@ -20,7 +20,7 @@ Il faut toutes les implémenter pour obtenir le maximum de points.
 
 ### Structure HTML de base et validité du code
 
-Pas **d'erreur** sur le [validateur HTML](https://validator.w3.org/) et
+Pas **d'erreur** sur le [validateur HTML](https://validator.w3.org/) et 
 le [validateur CSS](https://jigsaw.w3.org/css-validator/ ) (les avertissements ne sont pas pris en
 compte)
 
