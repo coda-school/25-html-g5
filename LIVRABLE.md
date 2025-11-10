@@ -83,6 +83,7 @@ Elles doivent être reportées ci-dessous.
 Traduction du site en différentes langues (en en prio)
 
 ### Exigence 2
+test
 
 ## Rendu attendu
 
