@@ -26,10 +26,6 @@ nav ul li a {
     padding: 5px 10px;
 }
 
-main {
-    margin: 2rem;
-}
-
 footer {
     background-color: #4E464C;
     color: white;
@@ -37,4 +33,31 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#main_acc {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#banniere_acc {
+    padding-top: 5rem;
+}
+
+#sous_banniere_acc {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    background-color: white;
+}
+
+#sous_banniere_acc div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
