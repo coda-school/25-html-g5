@@ -61,3 +61,32 @@ footer {
     align-items: center;
     text-align: center;
 }
+
+
+#tendance {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    h2 {
+        margin-left: 5rem;
+    }
+}
+
+#banniere_tendance {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    button{
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 28rem;
+            height: 16rem;
+        }
+    }
+}
+
+
+#main_search {
+    display: flex;
+    flex-direction: column;
+}
