@@ -26,6 +26,10 @@ nav ul li a {
     padding: 5px 10px;
 }
 
+nav ul li select {
+    padding: 5px 10px;
+}
+
 footer {
     background-color: #4E464C;
     color: white;
@@ -126,4 +130,34 @@ footer {
 #input_search {
     width: 100%;
     height: 2rem;
+}
+
+/* ---------- PAGE TIERLIST ---------- */
+
+.display-tierlist {
+    max-width: 1104px;
+    margin: 0 auto;
+    border-top: 2px solid #4E464C;
+    border-left: 2px solid #4E464C;
+    border-right: 2px solid #4E464C;
+}
+.tier-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(128px, auto);
+}
+.tier {
+    grid-column: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid #4E464C;
+    border-bottom: 2px solid #4E464C;
+}
+.ranked_items{
+    grid-column: 2/7;
+    border-bottom: 2px solid #4E464C;
+    img {
+        max-width: 128px;
+    }
 }
