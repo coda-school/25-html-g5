@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="style.css">
     <title>Tier list</title>
 </head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="search_tl">Chercher une tier list</a></li>
+            <li><a href="create_tl">Créer une tier list </a></li>
+        </ul>
+    </nav>
+</header>
 <body>
 <main>
     <h1> Tier list</h1>
@@ -22,16 +30,27 @@
             <a href="#volet_clos" class="fermer">Fermer </a>
         </div>
     </div>
-    <p><font size="6px">Créer une tier list</font></p>
-    <button><font size="3px">Enregistrer la tier list</font></button>
-    <div>Titre de la tier list</div>
-    <button>+ Ajouter une Tier list</button>
-    <div class="s">S</div>
-    <div class="a">A</div>
-    <div class="b">B</div>
-    <div class="c">C</div>
-    <div class="d">D</div>
-    <button>Ajouter des images</button>
+    <h2><font size="6px">Créer une Tier list</font></h2>
+
+    <div><input type="text" id="input_titre" placeholder="Titre de la Tier list"></div></input>
+    <span id="ajouter_cat"><button>+ Ajouter une catégorie</button></span>
+    <span><button>- Supprimer une catégorie</button></span>
+    <article class="s">S</article>
+    <article class="a">A</article>
+    <article class="b">B</article>
+    <article class="c">C</article>
+    <article class="d">D</article>
+    <button id="ajout_image">Ajouter des images</button>
+    <div><button><font size="3px">Enregistrer la tier list</font></button></div>
+    <button>Après</button>
 </main>
+<footer>
+    <a href="https://github.com/coda-school/25-html-g5.git">
+        <button>
+            REPO GIT
+        </button>
+    </a>
+    <p>© 2025 TierList NAME. Tous droits réservés.</p>
+</footer>
 </body>
 </html>
