@@ -14,7 +14,7 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="create_tl">Créer une tier list</a></li>
                 <li>
-                    <select name="En" id="">
+                    <select name="choisir_langue">
                         <option value="fr">fr</option>
                         <option value="en">en</option>
                     </select>
@@ -24,43 +24,46 @@
     </header>
 
     <main>
+        <div id="volet_clos">
+            <div id="volet">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="search_tl.html">Chercher une Tier list</a></li>
+                    <li><a href="create_tl.html">Créer une Tier list</a></li>
+                </ul>
+
+                <a href="#volet" class="ouvrir">Ouvrir </a>
+                <a href="#volet_clos" class="fermer">Fermer </a>
+            </div>
+        </div>
+
         <div id="div_input_search">
             <input id="input_search" type="text" placeholder="Rechercher par titre ...">
         </div>
 
         <div id="list_tl_search">
-                <button>
-                    <div>
-                        <h2>Meilleurs jeux vidéo 2024</h2>
-                        <img src="https://www.journaldugeek.com/app/uploads/2023/12/jeux-attendus-2024.jpg" width="300rem" alt="">
-                    </div>
-                </button>
-                <button>
-                    <div>
-                        <h2>Tier-list fast-food</h2>
-                        <img src="https://blog.glooh.co/hubfs/Mc-Donalds-vs-Burger-King-affiches-publicitaires.webp" width="300rem" alt="">
-                    </div>
-                </button>
-                <button>
-                    <div>
-                        <h2>Tier-list nuggets</h2>
-                        <img src="https://allpizzapastabuffet.fr/Terville/wp-content/uploads/2023/09/nuggets.png" width="300rem" alt="">
-                    </div>
-                </button>
-                <button>
-                    <div>
-                        <h2>Tier-list gateau</h2>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XWYa9VNdxtgTG5LGKU0K4YdYaSqJOuv5Cw&s" width="300rem" alt="">
-                    </div>
-                </button>
                 <a href="tl/meilleur_perso_solotage_dofus/start.html">
                     <button>
-                        <div>
-                            <h2>Meilleur perso solotage Dofus</h2>
-                            <img src="https://i87.servimg.com/u/f87/14/04/65/02/image13.png" width="300rem" alt="">
-                        </div>
+                        Meilleur perso solotage Dofus
+                        <img src="https://i87.servimg.com/u/f87/14/04/65/02/image13.png" width="300" alt="">
                     </button>
                 </a>
+                <button>
+                    Meilleurs jeux vidéo 2024
+                    <img src="https://www.journaldugeek.com/app/uploads/2023/12/jeux-attendus-2024.jpg" width="300" alt="">
+                </button>
+                <button>
+                    Tier-list fast-food
+                    <img src="https://blog.glooh.co/hubfs/Mc-Donalds-vs-Burger-King-affiches-publicitaires.webp" width="300" alt="">
+                </button>
+                <button>
+                    Tier-list nuggets
+                    <img src="https://allpizzapastabuffet.fr/Terville/wp-content/uploads/2023/09/nuggets.png" width="300" alt="">
+                </button>
+                <button>
+                    Tier-list gateau
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XWYa9VNdxtgTG5LGKU0K4YdYaSqJOuv5Cw&s" width="300" alt="">
+                </button>
         </div>
     </main>
 

@@ -15,7 +15,7 @@
                 <li><a href="search_tl.html">Chercher une tier list</a></li>
                 <li><a href="create_tl">Créer une tier list </a></li>
                 <li>
-                    <select name="En" id="">
+                    <select name="choisir_langue">
                         <option value="fr">fr</option>
                         <option value="en">en</option>
                     </select>
@@ -25,8 +25,22 @@
     </header>
 
     <main>
+
+        <div id="volet_clos">
+            <div id="volet">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="search_tl.html">Chercher une Tier list</a></li>
+                    <li><a href="create_tl.html">Créer une Tier list</a></li>
+                </ul>
+
+                <a href="#volet" class="ouvrir">Ouvrir </a>
+                <a href="#volet_clos" class="fermer">Fermer </a>
+            </div>
+        </div>
+
         <div id="main_acc">
-            <img src="https://static.thenounproject.com/png/2616532-200.png" width="150px" alt="">
+            <img src="https://static.thenounproject.com/png/2616532-200.png" width="150" alt="">
             <h1>Bienvenue sur TierList NAME</h1>
             <p>
                 Créez, partagez et découvrez des tier lists sur vos sujets préférés.  <br>
@@ -67,22 +81,16 @@
             <h2>Tier lists tendances :</h2>
             <div id="banniere_tendance">
                 <button>
-                    <div>
-                        <p>Meilleurs jeux vidéo 2024</p>
-                        <img src="https://www.journaldugeek.com/app/uploads/2023/12/jeux-attendus-2024.jpg" alt="">
-                    </div>
+                    Meilleurs jeux vidéo 2024
+                    <img src="https://www.journaldugeek.com/app/uploads/2023/12/jeux-attendus-2024.jpg" alt="">
                 </button>
                 <button>
-                    <div>
-                        <p>Tier-list fast-food</p>
-                        <img src="https://blog.glooh.co/hubfs/Mc-Donalds-vs-Burger-King-affiches-publicitaires.webp" alt="">
-                    </div>
+                    Tier-list fast-food
+                    <img src="https://blog.glooh.co/hubfs/Mc-Donalds-vs-Burger-King-affiches-publicitaires.webp" alt="">
                 </button>
                 <button>
-                    <div>
-                        <p>Meilleur perso monocompte solotage Dofus</p>
-                        <img src="https://i87.servimg.com/u/f87/14/04/65/02/image13.png" alt="">
-                    </div>
+                    Meilleur perso monocompte solotage Dofus
+                    <img src="https://i87.servimg.com/u/f87/14/04/65/02/image13.png" alt="">
                 </button>
             </div>
         </div>
