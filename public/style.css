@@ -3,9 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.button_volet{
-    margin-top: 80px;
-}
+
 header {
     background-color: #4E464C;
     padding: 10px 0;
@@ -196,8 +194,16 @@ footer {
 
 
 .select_before_after {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+/* ---------- PAGE CREATE TL ---------- */
+
+.div_input_titre_tl {
+    padding: 2rem;
     align-items: center;
-<<<<<<< HEAD
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-auto-rows: minmax(30px, auto);
@@ -282,62 +288,9 @@ footer {
 
 .div_add_images {
     display: flex;
-=======
-    align-content: center;
->>>>>>> 742c02c59a4149ad9ba248e284700dde26d263c0
     justify-content: center;
-    text-align: center;
-}
-#volet {
-    width: 350px;
-    padding: 5px;
-    background: black; color: #fff;
-    position: relative;
-    left: -370px; top: 20px;
-    -webkit-transition: all .5s ease-in;
-    transition: all .5s ease-in;
-}
-#volet a.ouvrir {
-    padding: 11px 25px;
-    background:
-            #666;
-    color:
-            #fff;
-    text-decoration: none;
-    position: absolute;
-    right: -70px;
-    top: 27px;
-
-    /* quelques styles CSS3 */
-    -ms-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    transform: rotate(270deg);
-
-    border-radius: 0 0 8px 8px;
-}
-#volet:target {
-    left: 0;
-}
-/*Quand le volet est afficher lien fermé est caché*/
-#volet a.fermer {
-    display: none;
-    position: absolute;
-    right: -68px;
-    top: 28px;
-    padding: 11px 25px;
-    background: #666;
-    color: #fff;
-    text-decoration: none;
-    -ms-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    transform: rotate(270deg);
-
-    border-radius: 0 0 8px 8px;
 }
 
-<<<<<<< HEAD
 .div_images_added {
     margin-top: 2rem;
     margin-left: auto;
@@ -353,44 +306,4 @@ footer {
             max-width: 128px;
         }
     }
-=======
-#volet_clos:target #volet {
-    left: -370px;
-}
-#volet:target a.ouvrir {
-    display: none;
-}
-#volet:target a.fermer {
-    display: block;
-}
-/*------CREATE PAGE------*/
-button{
-    font-size: 6px;
-    margin: 10px;
-}
-.ajout_image{
-    width:20vw;
-    height:15vw;
-    font-size: 15px;
-}
-.ajouter_cat{
-    width:100px;
-    height:40px;
-    font-size: 15px;
-    margin-left: 20px;
-}
-#input_titre{
-    width: 20vw;
-    height: 20px;
-    padding:6px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-h2{
-    margin-top:30px;
-    margin-left: 30px;
-}
-h1{
-    margin-left: 30px;
->>>>>>> 742c02c59a4149ad9ba248e284700dde26d263c0
 }

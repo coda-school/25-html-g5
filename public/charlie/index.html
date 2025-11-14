@@ -13,9 +13,13 @@
         <nav>
             <ul> 
                 <li><a href="search_tl.html">Chercher une tier list</a></li>
+<<<<<<< HEAD
                 <li><a href="create_tl">Créer une tier list </a></li>
+=======
+                <li><a href="create.html">Créer une tier list </a></li>
+>>>>>>> 742c02c59a4149ad9ba248e284700dde26d263c0
                 <li>
-                    <select name="En" id="">
+                    <select name="En">
                         <option value="fr">fr</option>
                         <option value="en">en</option>
                     </select>
@@ -25,8 +29,20 @@
     </header>
 
     <main>
-        <div id="main_acc">
-            <img src="https://static.thenounproject.com/png/2616532-200.png" width="150px" alt="">
+        <div id="volet_clos">
+            <div id="volet">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="search_tl.html">Chercher une Tier list</a></li>
+                    <li><a href="create.html">Créer une Tier list</a></li>
+                </ul>
+
+                <a href="#volet" class="ouvrir">Ouvrir </a>
+                <a href="#volet_clos" class="fermer">Fermer </a>
+            </div>
+        </div>
+        <section id="main_acc">
+            <img src="https://static.thenounproject.com/png/2616532-200.png" width="150" alt="logo site">
             <h1>Bienvenue sur TierList NAME</h1>
             <p>
                 Créez, partagez et découvrez des tier lists sur vos sujets préférés.  <br>
@@ -41,7 +57,7 @@
                     <button>Chercher une tier list</button>
                 </a>
             </div>
-        </div>
+        </section>
 
         <div id="banniere_acc">
             <div id="sous_banniere_acc">
@@ -63,29 +79,23 @@
             </div>
         </div>
         
-        <div id="tendance">
+        <section id="tendance">
             <h2>Tier lists tendances :</h2>
             <div id="banniere_tendance">
                 <button>
-                    <div>
-                        <p>Meilleurs jeux vidéo 2024</p>
+                        Meilleurs jeux vidéo 2024
                         <img src="https://www.journaldugeek.com/app/uploads/2023/12/jeux-attendus-2024.jpg" alt="">
-                    </div>
                 </button>
                 <button>
-                    <div>
-                        <p>Tier-list fast-food</p>
+                        Tier-list fast-food
                         <img src="https://blog.glooh.co/hubfs/Mc-Donalds-vs-Burger-King-affiches-publicitaires.webp" alt="">
-                    </div>
                 </button>
                 <button>
-                    <div>
-                        <p>Meilleur perso monocompte solotage Dofus</p>
+                        Meilleur perso monocompte solotage Dofus
                         <img src="https://i87.servimg.com/u/f87/14/04/65/02/image13.png" alt="">
-                    </div>
                 </button>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer>
