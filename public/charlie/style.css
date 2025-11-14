@@ -4,6 +4,9 @@ body {
     padding: 0;
 }
 
+.button_volet{
+    margin-top: 80px;
+}
 header {
     background-color: #4E464C;
     padding: 10px 0;
@@ -182,4 +185,62 @@ footer {
     align-content: center;
     justify-content: center;
     text-align: center;
+}
+#volet {
+    width: 350px;
+    padding: 5px;
+    background: black; color: #fff;
+    position: relative;
+    left: -370px; top: 20px;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+#volet a.ouvrir {
+    padding: 11px 25px;
+    background:
+            #666;
+    color:
+            #fff;
+    text-decoration: none;
+    position: absolute;
+    right: -70px;
+    top: 27px;
+
+    /* quelques styles CSS3 */
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+
+    border-radius: 0 0 8px 8px;
+}
+#volet:target {
+    left: 0;
+}
+/*Quand le volet est afficher lien fermé est caché*/
+#volet a.fermer {
+    display: none;
+    position: absolute;
+    right: -68px;
+    top: 28px;
+    padding: 11px 25px;
+    background: #666;
+    color: #fff;
+    text-decoration: none;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+
+    border-radius: 0 0 8px 8px;
+}
+
+#volet_clos:target #volet {
+    left: -370px;
+}
+#volet:target a.ouvrir {
+    display: none;
+}
+#volet:target a.fermer {
+    display: block;
 }
