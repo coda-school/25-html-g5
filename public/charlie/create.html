@@ -4,15 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../charlie/style.css">
     <title>Tier list</title>
 </head>
 <body>
 <header>
     <nav>
         <ul>
-            <li><a href="search_tl">Chercher une tier list</a></li>
-            <li><a href="create_tl">Créer une tier list </a></li>
+            <li><a href="search_tl.html">Chercher une tier list</a></li>
         </ul>
     </nav>
 </header>
@@ -33,9 +32,9 @@
     </div>
     <h2>Créer une Tier list</h2>
 
-    <input type="text" id="input_titre" placeholder="Titre de la Tier list">
-    <span id="ajouter_cat"><button>+ Ajouter une catégorie</button></span>
-    <span><button>- Supprimer une catégorie</button></span>
+    <div><input type="text" id="input_titre" placeholder="Titre de la Tier list"></div>
+    <button class="ajouter_cat">+ Ajouter une catégorie</button>
+    <span><button class="ajouter_cat">- Supprimer une catégorie</button></span>
     <div class="display-tierlist">
         <div class="tier-grid">
             <div class="tier">S</div>
@@ -56,9 +55,9 @@
             </div>
         </div>
     </div>
-    <button id="ajout_image">Ajouter des images</button>
-    <div><button>Enregistrer la tier list</button></div>
-    <button>Après</button>
+    <button class="ajout_image">Ajouter des images</button>
+    <div><button class="ajouter_cat">Enregistrer la tier list</button></div>
+    <button class="ajouter_cat">Après</button>
 </main>
 <footer>
     <a href="https://github.com/coda-school/25-html-g5.git">
