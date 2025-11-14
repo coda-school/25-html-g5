@@ -380,3 +380,9 @@ footer a {
 #volet:target a.fermer {
     display: block;
 }
+
+.btn-lang {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}

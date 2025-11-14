@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search a tier list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon_placeholder.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create_tl">Create a tier list</a></li>
+                <li>
+                    <select name="choisir_langue">
+                        <option value="fr">fr</option>
+                        <option value="en">en</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="volet_clos">
+            <div id="volet">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="search_tl.html">Search a Tier list</a></li>
+                    <li><a href="create_tl.html">Create a Tier list</a></li>
+                </ul>
+
+                <a href="#volet" class="ouvrir">Open</a>
+                <a href="#volet_clos" class="fermer">Close</a>
+            </div>
+        </div>
+
+        <div id="div_input_search">
+            <input id="input_search" type="text" placeholder="Search by title ...">
+        </div>
+
+        <div id="list_tl_search">
+                <a href="tl/meilleur_perso_solotage_dofus/start.html">
+                    <button>
+                        Best Solo Class Dofus
+                        <img src="https://i87.servimg.com/u/f87/14/04/65/02/image13.png" width="300" alt="">
+                    </button>
+                </a>
+                <button>
+                    Best Video Games 2024
+                    <img src="https://www.journaldugeek.com/app/uploads/2023/12/jeux-attendus-2024.jpg" width="300" alt="">
+                </button>
+                <button>
+                    Fast-food Tier List
+                    <img src="https://blog.glooh.co/hubfs/Mc-Donalds-vs-Burger-King-affiches-publicitaires.webp" width="300" alt="">
+                </button>
+                <button>
+                    Nuggets Tier List
+                    <img src="https://allpizzapastabuffet.fr/Terville/wp-content/uploads/2023/09/nuggets.png" width="300" alt="">
+                </button>
+                <button>
+                    Cake Tier List
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XWYa9VNdxtgTG5LGKU0K4YdYaSqJOuv5Cw&s" width="300" alt="">
+                </button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/coda-school/25-html-g5.git">
+            <button>
+                GIT REPO
+            </button>
+        </a>
+        <p>© 2025 TierList NAME. All rights reserved.</p>
+    </footer>
+</body>
+</html>
